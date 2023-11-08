@@ -7,30 +7,38 @@ for you to create your own calculator web apllication as a developer.
 - CSS styling
 - Project Structure (Javascript functions)
 
-## Prerequisites
+-HTML structure
+for this calculator web application the basic html structure is create a div with class named output, inside this div you should have another div containing the previou-operand and the current-operand which contains the main output. Inside the main div created would be a list of buttons to identify yoyur calculator input, these buttons would have different ids of numbers and other mathematical sign symbols. make sure to put your mathematical sign symbols in a span for better CSS specific styling.
 
-List any prerequisites such as browsers, software, or libraries needed to run your application.
+-CSS styling
+Very important that the colors of your calculator backgroud is not contradicting the color of your body background so as to ensure great constrast.
 
-## Installation
-
-Explain how to install your application, e.g., downloading the code from GitHub or using Git clone.
+-Project structure (JAVASCRIPT FUNCTIONS)
+This is where the the calculator application is exactly built. You call different functions that enables the usage of the calculator using also the switch case and the if else. one very important part of your javascript for this web application is updating your display. Going through my code would shed more light to this. 
 
 ## Usage
 
-Provide instructions on how to run and use your web application.
+In our every day lives, we are familiar with the use of a calculator, for basic addition, substraction, multiplication and division calculations.
 
 ## Project Structure
 
-Explain the structure of your project and what each file or folder contains.
+This repository contains my index.html file for the calculator web application and also contains an assets folder which contains the script and style folder. The script folder contains my index.js which is my javascript code and the style folder contains my index.css which is my CSS styling for the calculator web application.
 
 ## Examples
+below is code snipet from CSS styling code, this code contains the styling for my main calculator that is inside a div.
 
-Include code snippets or examples to demonstrate key features of your application.
-
-## License
+.calculator {
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
 
 click [here](https://theniyirichard.github.io/object-calculator/) to test out calculator
 
 ## Acknowledgments
-
-Mention any resources or tools you used and give credit where it's due.
+I made use of google at some points for clearer understanding for my javascript functions.
