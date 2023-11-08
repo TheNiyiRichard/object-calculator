@@ -58,5 +58,5 @@ button:active {
 }
 
 span {
-    grid-column: span ;
+    grid-column: span 2;
 }
