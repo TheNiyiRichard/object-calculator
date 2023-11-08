@@ -36,7 +36,7 @@ below is code snipet from CSS styling code, this code contains the styling for m
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-}```
+} ```
 
 click [here](https://theniyirichard.github.io/object-calculator/) to test out calculator
 
