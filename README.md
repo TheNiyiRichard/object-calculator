@@ -29,7 +29,7 @@ Include code snippets or examples to demonstrate key features of your applicatio
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+click [here](https://theniyirichard.github.io/object-calculator/) to test out calculator
 
 ## Acknowledgments
 
