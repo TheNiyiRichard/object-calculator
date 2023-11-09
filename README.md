@@ -27,7 +27,8 @@ This repository contains my index.html file for the calculator web application a
 ## Examples
 below is code snipet from CSS styling code, this code contains the styling for my main calculator that is inside a div.
 
-```.calculator {
+```
+.calculator {
     width: 300px;
     background-color: #333;
     border-radius: 10px;
@@ -36,8 +37,8 @@ below is code snipet from CSS styling code, this code contains the styling for m
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-} ```
-
+}
+```
 click [here](https://theniyirichard.github.io/object-calculator/) to test out calculator
 
 ## Acknowledgments
